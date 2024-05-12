@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#livros {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.livro {
+  background-color: #57a1be;
+  border: 1px solid #87a6ad;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.livro h3 {
+  margin-top: 0;
+}
+
+.livro p {
+  margin: 5px 0;
+}
+
+#mensagem {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
